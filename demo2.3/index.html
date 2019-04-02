@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>3d</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+    html,body
+    {
+        margin: 0;
+        padding: 0;
+    }
+    #canvas{
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        background: url("texture/sky1.jpg") center no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+ 
+    </style>
+</head>
+<body>
+<div id="canvas"></div>
+<script type="text/javascript" src="plugin/three.min.js"></script>
+<script type="text/javascript" src="plugin/OrbitControls.js"></script>
+<script src="javascript/Space.js"></script>
+<script src="javascript/Star.js"></script>
+<script src="javascript/index.js"></script>
+</body>
+</html>
